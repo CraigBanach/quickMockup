@@ -317,10 +317,34 @@
 				height: 100%;
 				vertical-align: middle;
 				background: #EEE;
-
-
 			}
-			/*input Box*/
+
+      .datePicker {
+        border:2px solid gray;
+        border-radius: 3px;
+        padding: 0px 0 0px 0.4em;
+        display: table;
+        background-color: white;
+      }
+
+      .datePicker .editableArea {
+        display: table-cell;
+        text-align: center;
+        height: 100%;
+        vertical-align: middle;
+      }
+
+      .datePicker .mockelement-datepicker-icon {
+        border-left: 1px solid rgb(128, 128, 128);
+        padding: 0px 0.4em;
+        display: table-cell;
+        text-align: center;
+        height: 100%;
+        vertical-align: middle;
+        background: #EEE;
+      }
+
+      /*input Box*/
 			.newMockElement.inputbox, .mockElement.inputbox{
 			border:2px solid darkgray;
 			align-items: center;
@@ -768,6 +792,11 @@
 						<span class="editableArea">Dropdown Title</span><span class="mockelement-dropdown-arrow">▾</span>
 					</div>
 				</li>
+        <li title="datePicker element">
+          <div class="newMockElement datePicker" data-editable-content="2001-01-01" data-editable-mode="plain">
+            <span class="editableArea">2001-01-01</span><span class="mockelement-datepicker-icon">📅</span>
+          </div>
+        </li>
 				<li title="spinner element">
 					<div class="newMockElement spinner" data-editable-content="10"  data-editable-mode="plain">
 						<span class="editableArea">10</span>
