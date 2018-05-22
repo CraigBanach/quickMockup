@@ -1,12 +1,10 @@
 #QuickMockup
 
-[![Join the chat at https://gitter.im/jdittrich/quickMockup](https://badges.gitter.im/jdittrich/quickMockup.svg)](https://gitter.im/jdittrich/quickMockup?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 QuickMockup is a simple tool for creating simple mockups of interfaces and websites. It is HTML based and javascript-enhanced.
 
-I currently don't develop this. If you need something more powerful, have a look at https://github.com/jgraph/draw.io
+If you need something more powerful, have a look at https://github.com/jgraph/draw.io
 
-**[Try the demo](https://jdittrich.github.io/quickMockup/)**
+**[Try the demo](https://craigbanach.github.io/quickMockup/)**
 
 --------------------
 ![Screenshot](https://i.imgur.com/D4B3ggc.png)
